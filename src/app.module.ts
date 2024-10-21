@@ -1,7 +1,7 @@
 import { Module, NestModule, MiddlewareConsumer } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { LogIpMiddleware } from './logIp/middleware';
+import { LogIpMiddleware } from './logIp/logIp.middleware';
 import { RequestController } from './request/request.controller';
 
 @Module({
