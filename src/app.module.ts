@@ -3,9 +3,10 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { LogIpMiddleware } from './logIp/logIp.middleware';
 import { RequestController } from './request/request.controller';
+import { UsersModule } from './users/users.module';
 
 @Module({
-  imports: [],
+  imports: [UsersModule],
   controllers: [AppController, RequestController],
   providers: [AppService],
 })
