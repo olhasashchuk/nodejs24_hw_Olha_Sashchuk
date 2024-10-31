@@ -1,4 +1,4 @@
-export interface ICreateUser {
+export interface ISignUpUser {
   firstName: string,
   lastName: string,
   age: number,
