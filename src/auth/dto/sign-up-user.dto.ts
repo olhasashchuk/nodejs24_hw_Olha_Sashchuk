@@ -1,7 +1,7 @@
+import { ISignUpUser } from "../interfaces/sign-up-user.interface";
 import { IsBoolean, IsNumber, IsString } from "class-validator";
-import { ICreateUser } from "../interfaces/create-user.interface";
 
-export class CreateUserDto implements ICreateUser {
+export class SignUpUserDto implements ISignUpUser {
   @IsString()
   firstName: string;
   @IsString()
